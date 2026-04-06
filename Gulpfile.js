@@ -1,4 +1,4 @@
-const { src, dest, parallel } = require('gulp'); // já pega tudo que precisa
+const { src, dest, parallel } = require('gulp'); 
 const uglify = require('gulp-uglify');
 const gulpsass = require('gulp-sass')(require('sass'));
 const mozjpeg = require('imagemin-mozjpeg');
