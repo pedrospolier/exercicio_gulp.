@@ -1,0 +1,1 @@
+function saudacao(o){o?console.log("Olá, "+o+"! Bem-vindo ao projeto."):console.log("Olá, visitante!")}function soma(o,a){return o+a}function listarNumeros(){for(let o=1;o<=5;o++)console.log("Número:",o)}let usuario="João",resultado=(saudacao(usuario),soma(10,20));console.log("Resultado da soma:",resultado),listarNumeros();
